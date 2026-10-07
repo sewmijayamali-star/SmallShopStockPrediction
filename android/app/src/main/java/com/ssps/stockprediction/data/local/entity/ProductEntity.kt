@@ -8,6 +8,7 @@ import androidx.room.PrimaryKey
 /**
  * Represents a product in the shop's inventory.
  * Linked to a user via userId foreign key.
+ *
  */
 @Entity(
     tableName = "products",
