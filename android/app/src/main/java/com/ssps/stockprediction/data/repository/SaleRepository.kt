@@ -64,4 +64,8 @@ class SaleRepository(
     suspend fun getLatestSaleTimestamp(productId: Long): Long? {
         return saleDao.getLatestSaleTimestamp(productId)
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main

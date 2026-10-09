@@ -36,4 +36,7 @@ interface SaleDao {
     @Query("SELECT COUNT(*) FROM sales WHERE productId = :productId")
     suspend fun getSaleCountForProduct(productId: Long): Int
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
